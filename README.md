@@ -15,5 +15,5 @@ To reproduce the results, please use `conda` or `mamba` to install all the depen
 
 ```sh
 mamba env create -f environment.yml
-mamba activate injury_atlas
+mamba activate rnase4
 ```
