@@ -1,10 +1,12 @@
 # Hadjab RNase4 core analysis
 
-This repository holds the core code for the main analysis and plotting for "RNase4 Functions in Nociceptor-Mediated Nerve Homeostasis" paper.
+This repository holds the core code for the main analysis and plotting for "Ribonuclease 4 Functions in Nociceptor-Mediated Nerve Homeostasis" paper.
 
 ## Citation
 ```
-Feng, X., Techameena, P., Zhang, K., Quadros, R., Adori, C., Lallemend, F., Gurumurthy, C., Hadjab, S. (2025).
+Feng, X., Zhang, K., Techameena, P., Quadros, R., Adori, C., Murtazina, M., Adameyko, I., Biagini, S., Bayramlik, O., Lallemend, F., Gurumurthy, C., Hadjab, S. (2026). 
+Ribonuclease 4 Functions in Nociceptor-Mediated Nerve Homeostasis.
+Nature Communications.
 ```
 
 ## Contents
@@ -17,3 +19,6 @@ To reproduce the results, please use `conda` or `mamba` to install all the depen
 mamba env create -f environment.yml
 mamba activate rnase4
 ```
+
+## Data availability
+The count matrix of Smart-seq3xpress (cKO-BR) can be downloaded from [here](https://doi.org/10.6084/m9.figshare.28391387), while the count matrix from 10x platform (cKO-PR) can be downloaded from [GSE318231](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE318231).
